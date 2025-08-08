@@ -1,6 +1,6 @@
-import tiramisuLogo from './asset/t-dessert.jpg';
+import tiramisuLogo from '../asset/tiramishus.png';
 
- const header = () => {
+ const header = (navs) => {
 
     const headderElement = document.createElement('header');
     headderElement.id = 'header';
