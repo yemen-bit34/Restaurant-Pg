@@ -56,7 +56,6 @@ const menuPage = ()=>{
             const img = document.createElement("img");//add img
             img.src = item.image;
             img.alt = item.name;
-            img.loading = "lazy";
 
             const name = document.createElement("h3");//pro name
             name.textContent = item.name

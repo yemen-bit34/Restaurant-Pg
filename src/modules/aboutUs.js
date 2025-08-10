@@ -1,4 +1,3 @@
-import { lazy } from "react";
 
 const aboutUsSection = () =>{
 
@@ -18,7 +17,6 @@ const aboutUsSection = () =>{
     const picImg = document.createElement("img");
     picImg.src = "https://images.unsplash.com/photo-1509042239860-f550ce710b93";
     picImg.alt = "Coffe shop";
-    picImg.loading = "lazy";
 
     aboutDiv.appendChild(header);
     aboutDiv.appendChild(description);

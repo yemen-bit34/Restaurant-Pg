@@ -18,7 +18,6 @@ const contactSection = () => {
   const img = document.createElement("img");
   img.src = "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=60";
   img.alt = "Coffee Shop";
-  img.loading = "lazy";
 
   section.appendChild(title);
   section.appendChild(phone);
