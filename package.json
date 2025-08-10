@@ -7,7 +7,8 @@
     "build": "webpack",
     "dev": "webpack serve",
     "prod": "webpack --mode production",
-    "deploy": "git subtree push --prefix dist origin gh-pages",
+    "predeploy": "npm run prod",
+    "deploy": "gh-pages -d dist",
     "clean": "rm -rf dist/"
   },
   "author": "",
@@ -15,7 +16,6 @@
   "description": "",
   "devDependencies": {
     "css-loader": "^7.1.2",
-    "gh-pages": "^6.3.0",
     "html-loader": "^5.1.0",
     "style-loader": "^4.0.0",
     "webpack": "^5.101.0",
