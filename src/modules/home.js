@@ -14,6 +14,7 @@ const loadHomepage = () => {
 const homeImage = document.createElement("img");
 homeImage.src = tImageBg;
 homeImage.alt = "Tiramisu";
+homeImage.loading = "lazy";
 
 home.appendChild(heading);
 home.appendChild(paragraph);
